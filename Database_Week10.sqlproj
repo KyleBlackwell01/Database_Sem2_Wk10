@@ -7,7 +7,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectVersion>4.1</ProjectVersion>
     <ProjectGuid>{76ad05dc-39c3-4669-ab8a-64943aef869c}</ProjectGuid>
-    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql130DatabaseSchemaProvider</DSP>
+    <DSP>Microsoft.Data.Tools.Schema.Sql.SqlAzureDatabaseSchemaProvider</DSP>
     <OutputType>Database</OutputType>
     <RootPath>
     </RootPath>
@@ -63,7 +63,7 @@
   <ItemGroup>
     <Build Include="Tables\Assignment.sql" />
     <Build Include="Tables\Employee.sql" />
-    <Build Include="Scripts\Script.PostDeployment1.sql" />
+    <None Include="Scripts\Script.PostDeployment1.sql" />
     <Build Include="Procedures\ADD_EMPLOYEE.sql" />
   </ItemGroup>
   <ItemGroup>
