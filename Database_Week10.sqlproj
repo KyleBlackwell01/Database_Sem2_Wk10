@@ -64,4 +64,7 @@
     <Build Include="Assignment.sql" />
     <Build Include="ADD_EMPLOYEE.sql" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" />
+  </ItemGroup>
 </Project>

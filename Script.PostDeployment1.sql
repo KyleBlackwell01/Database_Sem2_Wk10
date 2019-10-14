@@ -10,12 +10,16 @@ Post-Deployment Script Template
 --------------------------------------------------------------------------------------
 */
 
+DELETE FROM Assignment;
+DELETE FROM Office;
+DELETE FROM Employee;
 
 
 INSERT INTO Office (LocCode, Address, Description) VALUES
 (1, '123 abc street', 'Tech Building'),
 (2, '321 xyz street', 'Music Building'),
 (3, '987 mno street', 'Art Building');
+
 
 INSERT INTO Employee (StaffID, GivenName, Surname) VALUES 
 (12, 'Cave', 'Johnson'),
