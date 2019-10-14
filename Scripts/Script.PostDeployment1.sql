@@ -27,6 +27,6 @@ INSERT INTO Employee (StaffID, GivenName, Surname) VALUES
 (14, 'Kyle', 'Blackwell');
 
 INSERT INTO Assignment (DateAssigned, LocCode, StaffID) VALUES
-('12-10-2019', 1, 14),
-('18-06-2019', 2, 12),
-('15-11-2018', 3, 13);
+('2019-10-12', 1, 14),
+('2019-06-18', 2, 12),
+('2018-11-15', 3, 13);

@@ -63,7 +63,7 @@
   <ItemGroup>
     <Build Include="Tables\Assignment.sql" />
     <Build Include="Tables\Employee.sql" />
-    <None Include="Scripts\Script.PostDeployment1.sql" />
+    <PostDeploy Include="Scripts\Script.PostDeployment1.sql" />
     <Build Include="Procedures\ADD_EMPLOYEE.sql" />
   </ItemGroup>
   <ItemGroup>
